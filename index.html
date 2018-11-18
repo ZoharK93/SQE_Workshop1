@@ -25,7 +25,7 @@
             <tr>
                 <td>
                     <div>
-                        <label>Fuck Off</label>
+                        <label>Enter code here</label>
                     </div>
                 </td>
                 <td>
@@ -57,23 +57,18 @@
             </tr>
         </table>
 
-        <table style="width:100%">
+        <table align="center" class="table table-bordered" id="ParsedTable">
+            <thead class="thead-dark" align="center">
             <tr>
                 <th>Line</th>
                 <th>Type</th>
                 <th>Name</th>
+                <th>Condition</th>
                 <th>Value</th>
             </tr>
-            <tr>
-                <td>Jill</td>
-                <td>Smith</td>
-                <td>50</td>
-            </tr>
-            <tr>
-                <td>Eve</td>
-                <td>Jackson</td>
-                <td>94</td>
-            </tr>
+            </thead>
+            <tbody id="ParsedContent">
+            </tbody>
         </table>
 
         <script src="dist/bundle.js"></script>
