@@ -211,12 +211,8 @@ function parseExp1 (exp) {
 }*/
 
 function parseExp (exp) {
-    if(exp === undefined || exp === ''){
-        return;
-    }
-
     let func = parseFunc[exp.type];
-    return func ? func(exp) : null;
+    return func(exp);
 
 
     /*switch(exp.type){
